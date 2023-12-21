@@ -1,0 +1,35 @@
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+}
+
+h2 {
+  background-color: hsl(214, 21%, 24%);
+  padding: 10px;
+  font-weight: 400;
+  border-radius: 20px;
+  font-size: 15px;
+  color: hsl(25, 97%, 53%);
+}
+
+p {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 15%, 12%);
+  width: 375px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.selected {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}

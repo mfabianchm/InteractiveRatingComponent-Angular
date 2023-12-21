@@ -1,0 +1,69 @@
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+}
+
+p {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+img {
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  padding: 15px;
+}
+
+.submit-btn {
+  background-color: hsl(25, 97%, 53%);
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.submit-btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.btns-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.btn-num {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(216, 12%, 54%);
+  border: none;
+  border-radius: 100%;
+  padding: 20px;
+  height: 50px;
+  width: 50px;
+  font-size: 15px;
+}
+
+.btn-num:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.main {
+  background-color: hsl(213, 15%, 12%);
+  width: 375px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.selected {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
